@@ -6,6 +6,8 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
-}
+  return str1.length === str2.length;//La propiedad .length se utiliza para obtener la longitud de una cadena.
+}  
+
 
 module.exports = tienenMismaLongitud;

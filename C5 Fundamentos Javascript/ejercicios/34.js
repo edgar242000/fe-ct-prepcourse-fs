@@ -7,6 +7,8 @@ function redondearNumero(num) {
    // 1.5 ---> 2
    // 0.1 ---> 0
    // Tu código:
+   // Retorna el valor de "num" redondeado al entero más cercano usando Math.round
+  return Math.round(num);
 }
 
 module.exports = redondearNumero;
